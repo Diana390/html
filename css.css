@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-image: url(Fon1.jpg);
+    background-size: cover;
+
+}
+#left 
+{
+    float: left;
+}
+
+h1
+{
+    font-style: italic;
+    font-size: 68px;
+    text-align: center;
+    color: black(120, 55, 182);
+  }  
+
+
+.class
+{
+    border-radius: 60px; 
+    border: 3px solid white; 
+    transform: translate(50px,-60px);
+}
+
+#Vk
+{
+    transform: translate(40px,-310px);
+}
+#telegram
+{
+    border-radius: 80px; 
+    border: 0px solid white; 
+    transform: translate(60px,-310px);
+}
+#text2
+{
+    font-size: 35px;
+    color:white;
+    font-style: italic;
+    float: right;
+    text-decoration: none;
+ 
+ 
+    
+}
+
+.text
+{
+    font-size: 25px;
+    font-style: italic;
+    text-align: justify;
+    margin-left:10px;
+    margin-right:10px;
+}
+.text1
+{
+    text-align:  center;
+}
+
+header, footer {
+    width: 98%;
+    padding: 1%;
+    background-color: #f4adfd;
+    float: left;
+    }
+    
+header {
+    border-bottom: 6px solid #fffcfc;
+}
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+#page-wrap {
+    min-height: 96%;
+    margin-bottom: -10px;
+}
+
+footer, #page-wrap:after {
+    height: 10px;
+    }
+    
+    footer {
+    border-top: 4px solid orange;
+    margin-top: 10px;
+    padding-bottom: 2%;
+    }
+
+
+
+    
